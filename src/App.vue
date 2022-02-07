@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Star Wars Logo" src="./assets/logo.png" />
+  <StarWarsAPI msg="Planet List" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import StarWarsAPI from "./components/StarWarsAPI.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    StarWarsAPI,
+  },
+};
 </script>
 
 <style>
@@ -20,7 +20,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+  background-image: url("./assets/starwarsbg.jpeg");
 }
 </style>
