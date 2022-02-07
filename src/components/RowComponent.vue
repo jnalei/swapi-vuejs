@@ -9,9 +9,13 @@
     <td v-if="planet.population === 'unknown'">?</td>
     <td v-else>{{ planet.population }}</td>
     <td v-if="planet.surface_water === 'unknown'">?</td>
-    <td v-else>{{ planet.surface_water }}</td>
-    <td v-if="planet.surface_water === 'unknown'">?</td>
-    <td v-else>{{ Math.floor((planet.diameter / 2) ** 2 * 4 * 3.14 * (planet.surface_water * .01)) }}</td>
+    <td v-else>
+      {{
+        Math.floor(
+          (planet.diameter / 2) ** 2 * 4 * 3.14 * (planet.surface_water * 0.01)
+        ) ** 2
+      }}
+    </td>
   </tr>
 </template>
 

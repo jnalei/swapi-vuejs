@@ -8,12 +8,12 @@
 <script>
 import PlanetService from "../services/PlanetService";
 import PlanetList from "@/components/PlanetList.vue";
-import RowComponent from "@/components/RowComponent.vue"
+import RowComponent from "@/components/RowComponent.vue";
 
 export default {
   components: {
     PlanetList,
-    RowComponent
+    RowComponent,
   },
   name: "StarWarsAPI",
   data() {
