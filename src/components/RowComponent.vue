@@ -30,6 +30,7 @@ export default {
 
 <style scoped>
 td {
+  text-align: center;
   padding: 5px;
   border: gray 1px solid;
   background-color: black;
