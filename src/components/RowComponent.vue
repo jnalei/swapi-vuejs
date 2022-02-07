@@ -11,7 +11,7 @@
     <td v-if="planet.surface_water === 'unknown'">?</td>
     <td v-else>
       {{
-        Math.floor(
+        Math.round(
           (planet.diameter / 2) ** 2 * 4 * 3.14 * (planet.surface_water * 0.01)
         ) ** 2
       }}
