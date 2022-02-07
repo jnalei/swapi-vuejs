@@ -1,6 +1,6 @@
 <template>
   <img alt="Star Wars Logo" src="./assets/logo.png" />
-  <StarWarsAPI msg="Planet List" />
+  <StarWarsAPI />
 </template>
 
 <script>

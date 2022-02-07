@@ -2,19 +2,13 @@
   <div>
     <table>
       <thead>
-        <th>Planet Name</th>
-        <td>{{ planet.name }}</td>
-        <th>Climate</th>
-        <td>{{ planet.climate }}</td>
-        <th>Residents</th>
-        <td>{{ planet.residents.length }}</td>
-        <th>Terrain</th>
-        <td>{{ planet.terrain }}</td>
-        <th>Population</th>
-        <td>{{ planet.population }}</td>
-        <th>Surface Water</th>
-        <td>{{ planet.surface_water }}</td>
-        <th>SW Calculation</th>
+          <th>Planet Name</th>
+          <th>Climate</th>
+          <th>Residents</th>
+          <th>Terrain</th>
+          <th>Population</th>
+          <th>Surface Water</th>
+          <th>SW Calculation</th>
       </thead>
     </table>
   </div>
@@ -31,23 +25,14 @@ export default {
 
 <style scoped>
 th {
-  color: yellow;
-  border-right: gray 1px solid;
-}
-td {
-  border-right: gray 1px solid;
-  width: 100px;
-  word-wrap: break-word;
-}
-thead {
-  background-color: black;
-  opacity: 0.7;
+  padding: 5px;
+  font-size: 1.2em;
+  color: rgb(235, 210, 66);
+  border: gray 1px solid;
+  width: 175px;
 }
 table {
-  word-wrap:break-word;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid gray 1px;
+  margin-top: 30px;
   background-color: black;
   opacity: 0.7;
 }

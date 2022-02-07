@@ -1,22 +1,21 @@
 <template>
-  <div class="starwars">
-    <h1>{{ msg }}</h1>
-    <PlanetList v-for="planet in planets" :key="planet" :planet="planet" />
+  <div>
+    <PlanetList />
+    <RowComponent v-for="planet in planets" :key="planet" :planet="planet" />
   </div>
 </template>
 
 <script>
 import PlanetService from "../services/PlanetService";
 import PlanetList from "@/components/PlanetList.vue";
+import RowComponent from "@/components/RowComponent.vue"
 
 export default {
   components: {
     PlanetList,
+    RowComponent
   },
   name: "StarWarsAPI",
-  props: {
-    msg: String,
-  },
   data() {
     return {
       planets: [],
