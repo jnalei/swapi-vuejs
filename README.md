@@ -1,7 +1,7 @@
 # Display data from Star Wars API 
 
 ## Introduction
-👋 Welcome to my project! This is a single page application which displays data from a public API using JavaScript and the VueJS framework. We will be loading data from [https://swapi.dev/api/planets/](https://swapi.dev/api/planets/) and it will be displayed in a basic table format. 
+👋 Welcome to my project! This is a single page application which displays data from a public API using JavaScript and the VueJS framework (my first project using VueJS.) We will be loading data from [https://swapi.dev/api/planets/](https://swapi.dev/api/planets/) and it will be displayed in a basic table format. 
 
 Please follow the details below to run the application on your local environment.
 
